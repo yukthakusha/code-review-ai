@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? process.env.REACT_APP_API_URL || 'https://your-backend-url.railway.app/api'
+  ? process.env.REACT_APP_API_URL || 'https://code-review-ai-backend-6mub.onrender.com/api'
   : 'http://localhost:5000/api';
 
 const api = axios.create({
