@@ -2,7 +2,6 @@
 
 > **AI-Powered Code Analysis Platform** - Automated code review with GitHub integration, multi-AI analysis, and real-time issue detection.
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-blue?style=for-the-badge)](https://your-app-url.vercel.app)
 [![GitHub](https://img.shields.io/badge/⭐_Star_on_GitHub-black?style=for-the-badge&logo=github)](https://github.com/your-username/code-review-ai)
 
 ## 🌟 What is Code Review AI?
@@ -45,18 +44,6 @@ Code Review AI is a **free, open-source platform** that automatically analyzes y
 
 ---
 
-## 🚀 Live Demo
-
-**Try it now:** [https://your-app-url.vercel.app](https://your-app-url.vercel.app)
-
-### Quick Test:
-1. Visit the app
-2. Click "Analyze Repository" (demo mode)
-3. See sample analysis results
-4. Or connect GitHub for real repo analysis
-
----
-
 ## 🛠️ Tech Stack
 
 ### **Frontend**
@@ -78,12 +65,6 @@ Code Review AI is a **free, open-source platform** that automatically analyzes y
 - **Google Gemini** - Secondary analysis
 - **Hugging Face** - Fallback models
 - **Custom Static Analysis** - Rule-based detection
-
-### **Deployment**
-- **Frontend**: Vercel (React deployment)
-- **Backend**: Railway (Node.js hosting)
-- **Database**: SQLite (file-based, no external DB needed)
-- **CI/CD**: GitHub Actions ready
 
 ---
 
@@ -193,31 +174,7 @@ NODE_ENV=development
 REACT_APP_API_URL=https://your-backend-url.railway.app/api
 ```
 
----
 
-## 🚀 Deployment Guide
-
-### **Deploy to Production**
-
-1. **Backend (Railway)**
-   - Connect GitHub repo to Railway
-   - Set root directory to `backend`
-   - Add environment variables
-   - Deploy automatically
-
-2. **Frontend (Vercel)**
-   - Import GitHub repo to Vercel
-   - Set root directory to `frontend`
-   - Add `REACT_APP_API_URL` environment variable
-   - Deploy automatically
-
-3. **Update GitHub OAuth**
-   - Change callback URL to production domain
-   - Update homepage URL
-
-**Detailed deployment instructions**: [DEPLOYMENT.md](./DEPLOYMENT.md)
-
----
 
 ## 📈 Usage Analytics
 
@@ -288,8 +245,6 @@ This project is **MIT Licensed** - see [LICENSE](LICENSE) file for details.
 - [Node.js](https://nodejs.org/) - Backend runtime
 - [OpenAI](https://openai.com/) - AI analysis engine
 - [GitHub API](https://docs.github.com/en/rest) - Repository integration
-- [Railway](https://railway.app/) - Backend hosting
-- [Vercel](https://vercel.com/) - Frontend hosting
 
 ### **Inspired By**
 - SonarQube - Code quality analysis
@@ -308,7 +263,6 @@ This project is **MIT Licensed** - see [LICENSE](LICENSE) file for details.
 - 📧 **Email**: your-email@example.com
 
 ### **Links**
-- 🌐 **Live Demo**: [https://your-app-url.vercel.app](https://your-app-url.vercel.app)
 - 📱 **GitHub**: [https://github.com/your-username/code-review-ai](https://github.com/your-username/code-review-ai)
 - 📚 **Documentation**: [Wiki](https://github.com/your-username/code-review-ai/wiki)
 
@@ -326,6 +280,6 @@ If this project helped you, please consider giving it a star! ⭐
 
 **Made with ❤️ for the developer community**
 
-[⭐ Star on GitHub](https://github.com/your-username/code-review-ai) • [🚀 Try Live Demo](https://your-app-url.vercel.app) • [📖 Read Docs](./DEPLOYMENT.md)
+[⭐ Star on GitHub](https://github.com/your-username/code-review-ai)  • [📖 Read Docs](./DEPLOYMENT.md)
 
 </div>
